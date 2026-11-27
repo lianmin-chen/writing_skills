@@ -49,5 +49,5 @@ description: 协作规划、撰写或实质性修改教学讲义、复习笔记�
 
 - 写正文或实质改写前，阅读[通用写作规范](references/writing-guidelines.md)；仅讨论目标或脉络时，按需要读取相关部分。
 - 数学讲义、复习材料或类似教学任务，阅读[数学写作要求](references/math-writing.md)。
-- 设计知识讲解类的完整脉络或需校准内容关系时，按需阅读[写作案例与对照](references/writing-examples.md)；仅该类已有用户认可的完整范例，不跨类型套用。
+- 规划知识讲解类的完整章节脉络时，阅读[写作案例与对照](references/writing-examples.md)，其中包含从来源到论述的构建示例；其他类型按需参考，不套用数学范例的内容或结构。
 - 修改或回测本 Skill 时，使用[回测案例](tests/cases.md)；测试记录不作为普通写作任务的指令。
