@@ -43,6 +43,15 @@ Skill 的价值不在于让 AI 执行更多步骤或生成更长的文本，而�
 
 第二步的核心成果是**写作大纲与论述脉络**：不仅确定各部分写什么、先后如何安排，还要说明各部分的作用、联系与必要的写作侧重；具体定义、推导、论证、例子及正文形式由第三步落实。用户认可的《矩阵论》第一章完整脉络保存在 `academic-writing/references/writing-examples.md`，仅作为**知识讲解类**的质量范例；它展示如何保留逻辑桥梁并处理主线与支线，而不是所有文稿的固定组织形式。对于修改现稿的任务，第二步还须对照现稿确定保留及调整方向。
 
+**第二步质量的细化（来自连续回测）**：知识讲解类脉络不只是正确的概念关系清单，还须在模块的中心问题之下实现有效的 **Old-to-New 信息推进**：已建立的认识为新信息提供上下文，新信息又成为后文推进的资源。逐句衔接（cohesion）与全段服务中心问题的连贯（coherence）应分别检查；词语相连但离题、插入没有承接作用的正确术语，都不是优秀脉络。追求**保留必要逻辑桥梁的精练**，而非字数最少或知识点最多。第三步仍负责正式定义、证明、例题与成文形式；第二步应先将论述路线写到可据以展开的清晰程度。
+
+**研究依据（设计参考，非运行时必读）**：
+- [Gopen & Swan, *The Science of Scientific Writing*](https://www.cs.tufts.edu/comp/150FP/archive/george-gopen/sci.html)：读者预期、已知／新知位置、主题与强调位置；作者明确反对把原则机械变成绝对规则。
+- [Yale Graduate Writing Lab, *Coherence and Flow: From Old to New Information*](https://poorvucenter.yale.edu/sites/default/files/2024-12/Coherence%20and%20Flow%20From%20Old%20to%20New%20Information%20GWL%20Handout.pdf)：整体组织、段落衔接与已知到新知的信息推进。
+- [Duke Scientific Writing Resource, Lesson 2](https://sites.duke.edu/scientificwriting/lesson-2-cohesion-coherence-and-emphasis/)：局部衔接不等于整体连贯，避免虽句句关联却偏离主题。
+- [University of Minnesota, School of Mathematics Writing Plan](https://wac.umn.edu/wec-program/academic-units/mathematics)：数学论述须兼顾严谨、论证路径、读者可重建性及精练。
+- [Purdue OWL, Concision](https://owl.purdue.edu/owl/general_writing/academic_writing/conciseness/index.html)：精练不等于词数最少，保留每个起作用的必要表达。
+
 **各类范例的成熟度**：目前只有知识讲解类拥有用户认可的完整第二步范例。复习整理、题型与方法、文献阅读、研究写作四类尚待在实际任务中形成并验证代表性范例；现阶段依靠通用大纲与脉络原则正常规划，不在执行工作单元中设置强制模板或展示待办清单。以后按“真实任务—用户修订认可—沉淀范例”的方式逐步补充。
 
 **确认是阶段门槛，不是形式化的提问轮次**：第一步任务已由用户明确说明时直接沿用，存在实质歧义时提出建议并确认；第二步由用户确认内容方案后进入正文。用户仅修改暂定任务时先更新；已确认且未变化的事项不重复询问。
