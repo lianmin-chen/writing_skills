@@ -45,6 +45,8 @@ Skill 的价值不在于让 AI 执行更多步骤或生成更长的文本，而�
 
 **第二步质量的细化（来自连续回测）**：知识讲解类脉络不只是正确的概念关系清单，还须在模块的中心问题之下实现有效的 **Old-to-New 信息推进**：已建立的认识为新信息提供上下文，新信息又成为后文推进的资源。逐句衔接（cohesion）与全段服务中心问题的连贯（coherence）应分别检查；词语相连但离题、插入没有承接作用的正确术语，都不是优秀脉络。追求**保留必要逻辑桥梁的精练**，而非字数最少或知识点最多。第三步仍负责正式定义、证明、例题与成文形式；第二步应先将论述路线写到可据以展开的清晰程度。
 
+**关键修正：先核验知识关系，再决定铺垫。** “基于线性组合与线性无关定义基”虽有衔接词，却漏掉张成性，因此不能通过数学内容核验。第二步先确认定义、必要条件、适用范围与真实依赖，再按读者理解需要决定引入尺度：新目标需必要铺垫，直接派生可简明承接，并列分支说明共同目的而不伪造因果。Old-to-New 仍用于表达，但不能代替内容正确性。具体正反例保存在 `references/writing-examples.md`，不把判断写成机械的文稿模板。
+
 **研究依据（设计参考，非运行时必读）**：
 - [Gopen & Swan, *The Science of Scientific Writing*](https://www.cs.tufts.edu/comp/150FP/archive/george-gopen/sci.html)：读者预期、已知／新知位置、主题与强调位置；作者明确反对把原则机械变成绝对规则。
 - [Yale Graduate Writing Lab, *Coherence and Flow: From Old to New Information*](https://poorvucenter.yale.edu/sites/default/files/2024-12/Coherence%20and%20Flow%20From%20Old%20to%20New%20Information%20GWL%20Handout.pdf)：整体组织、段落衔接与已知到新知的信息推进。
