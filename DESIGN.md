@@ -19,6 +19,8 @@ knowledge-outline 保持原实现不变。writing-editor 首版合并审查、�
 
 以任务目的决定核心认识，以核心认识决定内容取舍，以认识的发展决定论述顺序，以读者的理解过程决定语言表达，以必要性决定解释深度。凡论断皆有依据。Logical Flow、Old-to-New、Topic–Evidence–Link 是指导具体论述的思想，不是格式模板。研究写作重在真实洞见及证据边界（Truth vs. Tweak）。
 
+不同论述对象具有不同的认识维度。结合对象类型、写作目的及读者的实际理解需求确定论述任务，再选择内容、论述顺序与展开深度。这一经验源自原 knowledge-explanation，继续用于 writing-editor 的内容与论述审查，也作为后续写作类 Skill 的设计依据；不恢复独立知识解释入口，不将认识维度设为固定模板。
+
 ## 本轮调整
 
 用户确认不再为通用知识解释及完整知识总结单独开发 Skill，重点转向审查和润色已有文稿。移除 knowledge-explanation 与 knowledge-summary 的任务入口及其独立执行文件，移除重叠的旧 academic-writing 四阶段入口及工作流，避免不同 Skill 重复触发。已认可或有参考价值的内容迁入 writing-editor：保留原相似对角化、向量空间、Jordan 标准型完整范例；整合专业表达及正文编辑对照；保留 SVD 关键构造引入范例和研究证据边界；原 knowledge-outline 的完整参考与测试不变。移除重复指导及已停用任务的独立测试。旧内容全部可从 Git 历史追溯，不在当前运行时保留失效入口。
