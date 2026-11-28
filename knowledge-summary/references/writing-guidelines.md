@@ -1,6 +1,6 @@
 # 专业知识总结写作指导
 
-用于正文组织、写作和审阅。继承原 academic-writing 的通用写作原则，结合 knowledge-summary 首次实际输出的编辑问题，具体说明如何把已经建立的知识脉络写成专业文稿。配合 [完整知识总结范例](vector-space.md)、[局部问题导向范例](diagonalization.md) 使用。
+用于正文组织、写作和审阅。继承原 academic-writing 的通用写作原则，结合 knowledge-summary 首次实际输出的编辑问题，具体说明如何把已经建立的知识脉络写成专业文稿。配合用户认可的 [整章正文范例：Jordan 标准型与矩阵多项式](jordan-form.md)、[完整知识总结范例：向量空间](vector-space.md) 或 [局部问题导向范例：相似对角化](diagonalization.md) 使用。
 
 ## 核心原则
 
