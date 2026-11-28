@@ -111,6 +111,14 @@
 
 结构参考 [Agent Skills Specification](https://agentskills.io/specification)、[OpenAI Build skills](https://developers.openai.com/plugins/build/skills) 和 [Claude Skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)：任务聚焦、元数据明确、轻量指令、相对路径范例与独立评价。只进行静态文件、元数据和引用检查，实际生成效果待验证。
 
+### 0.10 knowledge-summary：从宏观脉络到正文写作（用户确认）
+
+首版（`7e6eaaa`）在《矩阵论》第三章实际生成较完整的系统文稿，并有整体概述及总结；用户认为总—分—总的大体结构可用，但脉络不如已认可的 knowledge-outline 成果清晰，标题层次、段落及句子衔接仍有较大改进空间。原稿将化零多项式与最小多项式独立为与矩阵多项式并列的一级主题；部分标题与正文实际内容不符，局部直接引入定义而缺少必要认识背景。不能将知识覆盖率或篇幅视为成稿质量。
+
+本轮保留知识总结的任务定位与两个认可正文范例。复杂任务先参照已认可的宏观脉络范例，在内部形成简明脉络，再据此确定正文主题及顺序；小范围、脉络明确或已有认可脉络的任务直接开展，不强制另交脉络或审批。独立复制宏观脉络范例供规划使用，不引入运行时跨 Skill 依赖。新增简洁的正文写作指导，继承原 academic-writing 中的必要性、依据、Logical Flow、Old-to-New、Topic–Evidence–Link 及数学写作经验，用实际编辑对照解释标题层次、段落与句子的具体问题。主文件只保留工作方式和关键交付要求，自检同时核对原有脉络、标题和局部论述。上述方法不是固定模板。
+
+测试补充第三章实际反馈回归，并保留陌生主题验证。完整正文范例、其他 Skill 均不修改。仅完成静态结构、引用和提交检查，尚未独立验证调整后的输出质量。
+
 ## 1. 核心任务
 
 **先明确本次要完成的写作操作及目标文稿，再根据其用途选择、组织必要内容，最终完成准确、清晰、自然的写作，减少方向偏差和返工。**
